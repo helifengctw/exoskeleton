@@ -1,0 +1,15 @@
+Files: QS (quiet standing), NW{1,2} (normal shoes), ZT{1,2} (zero torque),
+	GA{1,2} (generic assistance profile), OP{1,2} (optimal assistance)
+
+Time (s): time (0 is when the system was first turned on)
+
+Ground reaction forces: LFx/RFx, LFy/RFy, LFz/RFz (left, forward, down)
+Ground reaction moments: LMx/RMx, LMy/RMy, LMz/RMz
+
+Ankle angles from exoskeleton encoder: posaL, posaR (radians)
+Ankle velocities from exoskeleton encoder: velaL, velaR (rad/sec)
+
+Exoskeleton torque measured by strain gauges: tauL, tauR (Nm)
+Desired exoskeleton torque: taudesL, taudesR (Nm)
+
+Metabolics measurements: vo2, vco2 (mL/min)
